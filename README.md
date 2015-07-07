@@ -11,13 +11,18 @@ The program randomly picks a GitHubber. Your mission, if you choose to accept, i
 
 2. Clone the project to your computer
 ```bash
-$ git clone https://github.com/alysonla/hb-intro-final-project.git```
+$ git clone https://github.com/alysonla/hb-intro-final-project.git
+```
+
 3. cd into the project folder
 ```bash
-$ cd hb-intro-final-project```
+$ cd hb-intro-final-project
+```
 4. Type `python guessing_game.py` to start the game
 ```bash
-$ python guessing_game.py```
+$ python guessing_game.py
+```
+
 5. Guess a GitHubber! Enter the number of your location guess
 
 6. To play again, press the up arrow & enter
