@@ -7,25 +7,21 @@ The program randomly picks a GitHubber. Your mission, if you choose to accept, i
 
 ## To run:
 
-1. Open terminal - on mac use spotlight search - command + spacebar & type "terminal" & enter
-
-2. Clone the project to your computer
+* Open terminal - on mac use spotlight search - command + spacebar & type "terminal" & enter
+* Clone the project to your computer
 ```bash
 $ git clone https://github.com/alysonla/hb-intro-final-project.git
 ```
-
-3. cd into the project folder
+* cd into the project folder
 ```bash
 $ cd hb-intro-final-project
 ```
-4. Type `python guessing_game.py` to start the game
+* Type `python guessing_game.py` to start the game
 ```bash
 $ python guessing_game.py
 ```
-
-5. Guess a GitHubber! Enter the number of your location guess
-
-6. To play again, press the up arrow & enter
+* Guess a GitHubber! Enter the number of your location guess
+* To play again, press the up arrow & enter
 
 ## All pull requests welcome!
 
