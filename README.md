@@ -27,7 +27,7 @@ $ python guessing_game.py
 
 ### Ideas for additional features
 
-* [ ] If incorrect, print out the GitHubber's site url from team.txt file.
-* [ ] Sort out multiples so San Francisco doesn't appear more than once in possible_locations list
+* [x] If incorrect, print out the GitHubber's site url from team.txt file.
+* [x] Sort out multiples so San Francisco doesn't appear more than once in possible_locations list
 * [ ] Allow for option to choose last X GitHubbers in list.  
 * [ ] Put game into a loop to automatically keep playing until someone types 'end' etc

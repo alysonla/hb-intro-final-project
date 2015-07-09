@@ -43,13 +43,6 @@ for line in text_read:
 possible_locations = []
 
 #Create variable 'person' which uses the 'random' method to choose one person out of the people list created above
-# person = random.choice(people[:100])
-# while "Location" not in person:
-#     person = random.choice(people[:100])
-#
-# person = random.choice(people[101:200])
-# while "Location" not in person:
-#     person = random.choice(people[101:200])
 
 person = random.choice(people[200:])
 while "Location" not in person:
@@ -70,10 +63,10 @@ for l in range(4):
 #Shuffle possible_locations
 random.shuffle(possible_locations)
 
-#Choose OG, Middle, or New Hubber
-level = raw_input("Pick a level: \n 1. OG Hubbers - first 100 \n 2. Middle Earth - 101 - 200 \n 3. New Hubbers - From 200 on \n" )
+#Choose OG, Middle, or New Hubber - still to be implemented
+# level = raw_input("Pick a level: \n 1. OG Hubbers - first 100 \n 2. Middle Earth - 101 - 200 \n 3. New Hubbers - From 200 on \n" )
 
-if level == int(level) == level.index(person[]) + 1:
+# if level == int(level) == level.index(person[]) + 1:
 
 #Create a variable 'location_guess' that prints out a random name and 5 possible locations
 location_guess = raw_input("Where does%s live? \n1. %s \n2. %s \n3. %s \n4. %s \n5. %s \n>>>  " % (person["Name"], possible_locations[0],possible_locations[1],possible_locations[2],possible_locations[3],possible_locations[4]))
